@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+      <title>Texas</title>
+
+      <style>
+        p {
+          font-family: fantasy;
+          color:blue;
+          font-size:15px;
+        }
+        .container {
+          width:80%
+          overflow:hidden;
+
+        }
+        #logo {
+          color: white;
+          background-color: red;
+          font-size: 70px;
+          width: 450px;
+          text-align: center;
+        }
+
+      </style>
+  </head>
+  <body>
+    <div class="container">
+
+    <h1 id="logo">The Lone Star State</h1>
+    <a href="about.html" style="padding:20px;margin:20px;"><h2>About</h2></a>
+    <h1 title="Cities Of Texas">Cities Of Texas</h1>
+    <p>Texas was founded on December 29th, 1845<p>
+    <p>Austin, the capitol of Texas, was founded on December 27, 1839.<p>
+    <table>
+      <tr>
+        <th>City</th>
+        <th>Year Founded</th>
+        <th>Population</th>
+      </tr>
+      <tr>
+        <td>Austin</td>
+        <td>1839</td>
+        <td>964,245</td>
+      </tr>
+      <tr>
+        <td>Dallas</td>
+        <td>1856</td>
+        <td>1,343,573</td>
+      </tr>
+      <tr>
+        <td>San Antonio</td>
+        <td>1718</td>
+        <td>1,547,253</td>
+      </tr>
+    </table>
+    <img src="images/austin.jpg" style="width:20%;height:20%;"><br>
+    <img src="images/dallas.jpg" style="width:20%;height:20%;"><br>
+    <img src="images/sanantonio.jpg" style="width:20%;height:20%;"><br>
+    <br>
+    <hr>
+    <script>
+    function myFunction() {
+      document.getElementById("texas").style.fontSize = "40px";
+      document.getElementById("texas").style.color = "white";
+      document.getElementById("texas").style.backgroundColor = "red";
+      document.getElementById("texas").innerHTML = "Yeehaw!"
+
+    }
+    </script>
+    <a href="https://www.theodysseyonline.com/12-reasons-why-texas-is-the-best">Important Link</a>
+
+    <button type="button" onclick="myFunction()"><h1>Yeehaw!</h1></button>
+    <h2 id="Yeehaw!"></h2>
+
+
+    <hr>
+
+    </div>
+</body>
+
+</html>
